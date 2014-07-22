@@ -1,14 +1,22 @@
-#include <stdio.h>
+//#include <stdio.h>
 #include <iostream>
 #include <windows.h>	//yuanyuan for OutputDebugString()
 
 using namespace std;
 
-int yymain(void)
+#include "Game1.h"
+
+int main(void)
 {
-	cout << "Hello" << "world, C++!" << endl;
-	printf("Hello, world!\n");
+	//printf("Hello, world!\n");
+	//cout << "Hello" << "world, C++!" << endl;
 	OutputDebugString("***HelloDebugString()***\n");
+
+	Game1 *gm = new Game1();
+
+	//LL list2(10,6);
+
+	delete gm;
 
 	return 0;
 }

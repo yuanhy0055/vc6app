@@ -89,6 +89,10 @@ SOURCE=.\doexec.c
 # End Source File
 # Begin Source File
 
+SOURCE=.\Game1.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=.\getopt.c
 # End Source File
 # Begin Source File
@@ -113,11 +117,19 @@ SOURCE=.\RefBase.h
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
+SOURCE=.\Game1.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\generic.h
 # End Source File
 # Begin Source File
 
 SOURCE=.\getopt.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\yytmp.h
 # End Source File
 # End Group
 # Begin Group "Resource Files"
