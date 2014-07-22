@@ -2,3 +2,12 @@ Debug/
 *.ncb
 *.opt
 *.plg
+
+*.sdf
+*.sln
+*.suo
+*.vcxproj
+*.filters
+*.user
+*.ipch
+*.opensdf
