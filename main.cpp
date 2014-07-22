@@ -14,7 +14,13 @@ int main(void)
 
 	Game1 *gm = new Game1();
 
-	//LL list2(10,6);
+	LL list2(10,6);
+	list2.push_back(5);
+
+	LL::iterator ii;
+	for(ii=list2.begin();ii!=list2.end();ii++) {
+		cout << *ii << endl;
+	}
 
 	delete gm;
 
