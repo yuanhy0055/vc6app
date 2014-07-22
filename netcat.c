@@ -1654,7 +1654,7 @@ Debug (("wrote %d to net, errno %d", rr, errno))
 
 /* main :
    now we pull it all together... */
-main (argc, argv)
+nc_main (argc, argv)
   int argc;
   char ** argv;
 {
