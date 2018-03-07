@@ -5,10 +5,6 @@
 //extern "C" {
 //#endif
 
-#include <list>
-
-typedef list<int> LL;
-
 class Game1 {
 private:
 	int dui;

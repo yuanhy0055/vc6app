@@ -1,10 +1,12 @@
 //#include <stdio.h>
 #include <iostream>
 #include <windows.h>	//yuanyuan for OutputDebugString()
+#include <list>
 
 using namespace std;
 
 #include "Game1.h"
+typedef list<int> LL;
 
 int main(void)
 {
