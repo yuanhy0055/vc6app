@@ -13,6 +13,7 @@ int ch1_main();
 int main(void)
 {
 	ch1_main();
+	system("pause");
 
 	//printf("Hello, world!\n");
 	//cout << "Hello" << "world, C++!" << endl;
