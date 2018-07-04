@@ -8,8 +8,12 @@ using namespace std;
 #include "Game1.h"
 typedef list<int> LL;
 
+int ch1_main();
+
 int main(void)
 {
+	ch1_main();
+
 	//printf("Hello, world!\n");
 	//cout << "Hello" << "world, C++!" << endl;
 	OutputDebugString("***HelloDebugString()***\n");
